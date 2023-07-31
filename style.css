@@ -63,15 +63,19 @@ body {
     border-radius: 5px;
   }
 
+  .container {
+    display: flex;
+  }
+
   .content {
-    margin-top: 20px;
+    margin: 20px 40px;
     display: flex;
     gap: 40px;
   }
 
   .card {
     height: 300px;
-    width: 200px;
+    width: 300px;
     border: 1px solid #9a9a9a;
     border-radius: 20px;
   }
