@@ -56,11 +56,59 @@ body {
     font-size: 16px;
   }
 
-  .login {
+  .topnav button {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 25px;
+  }
+
+  .topnav, 
+  .login {
+    margin: 0;
+  }
+
+  .hero-column {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 20px 40px;
+  }
+
+  .column1 {
+    height: 450px;
+    width: 520px;
+  }
+
+  .column1 h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    padding-right: 250px;
+  }
+
+  .column1 p {
+    font-size: 20px;
+    padding-right: 250px;
+    font-weight: 100;
+  }
+
+  .column1 button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .column2 {
+    height: 450px;
+    width: 520px;
+    border: 1px solid #9a9a9a;
+    border-radius: 20px;
+    background-image: url(/images/towfiqu-barbhuiya-jpqyfK7GB4w-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .container {
